@@ -3,6 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>YAQIN'S Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+<body>
+    
+    <!-- ===== Header / Navigation ===== -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">YAQIN SHAWKAN</h1>
+            <h2 class="tagline">Dream big, work hard, stay focused, and make it happen!</h2>
+            <p id="greeting-message"></p>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ===== Main Content ===== -->
+    <main>
+
+        <!-- ===== About Me ===== -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    A Software Engineering student at KFUPM, with a solid foundation in programming and software engineering life cycle. 
+                    Experienced in Python, Java, C, and Database Systems, with growing expertise in web development using 
+                    HTML, CSS, and JavaScript. Passionate about problem-solving and building efficient, 
+                    user-focused applications while continuously expanding my technical skills.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== Projects ===== -->
+        <section id="projects" class="section alt-bg">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card">
+                        <h3>ClubZone Project</h3>
+                        <p>
+                            A web application serving as a comprehensive hub for all club-related information, ensuring seamless
+                            communication, clear membership guidelines, and improved engagement between students and clubs.
+                        </p>
+                        <img src="assets\images\ClubZoneProject.jpg" alt="ClubZone Screenshot">
+                    </div>
+
+                    <div class="project-card">
+                        <h3>Horse Racing System</h3>
+                        <p>
+                            A Java-based Horse Racing Management System that serves as a centralized platform for managing all 
+                            race-related data. The application allows an administrator to efficiently handle horses, races, and 
+                            results through a user-friendly interface connected to a MySQL database, ensuring accurate data storage, 
+                            easy updates, and organized record management.
+                        </p>
+                        <img src="assets\images\DatabaseProject.png" alt="Horse Racing System Screenshot">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <input type="submit" value="Send"><br>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        <p>&copy; 2026 YAQIN SHAWKAN. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
