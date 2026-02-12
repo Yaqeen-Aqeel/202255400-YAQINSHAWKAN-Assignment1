@@ -1,3 +1,5 @@
+// Displays a greeting message based on the user's local time
+
 function showGreeting() {
     const greetingElement = document.getElementById("greeting-message");
     const currentHour = new Date().getHours();
