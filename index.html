@@ -14,6 +14,8 @@
             <h1 class="logo">YAQIN SHAWKAN</h1>
             <h2 class="tagline">Dream big, work hard, stay focused, and make it happen!</h2>
             <p id="greeting-message"></p>
+            <button id="change-name-btn">Change Name</button>
+            <div id="temp-message" class="temp-message"></div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -72,7 +74,7 @@
         <section id="contact" class="section">
             <div class="container">
                 <h2>Contact</h2>
-                <form>
+                <form id="contact-form">
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
 
@@ -83,6 +85,7 @@
                     <textarea id="message" name="message" rows="4" required></textarea>
 
                     <input type="submit" value="Send"><br>
+                    <div id="form-message" class="form-message"></div>
                 </form>
             </div>
         </section>
@@ -95,5 +98,16 @@
     </footer>
 
     <script src="js/script.js"></script>
+
+    <!-- Name Input Modal -->
+    <div id="name-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Welcome 👋</h3>
+            <p>Please enter your name:</p>
+            <input type="text" id="name-input" placeholder="Your name">
+            <button id="save-name">Save</button>
+        </div>
+    </div>
 </body>
 </html>
