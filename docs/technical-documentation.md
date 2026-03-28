@@ -109,15 +109,5 @@ No console errors were found during testing.
 
 ---
 
-## 9. Future Improvements
-
-Possible future enhancements include:
-- Adding a dark/light mode toggle
-- Adding more projects with live demo links
-- Implementing contact form validation and backend integration
-- Deploying the website using GitHub Pages
-
----
-
 This documentation explains the technical structure, design decisions, and 
 functionality of the portfolio project.

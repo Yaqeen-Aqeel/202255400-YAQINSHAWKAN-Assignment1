@@ -1,16 +1,19 @@
-# 202255400-YAQINSHAWKAN-Assignment1 
+# 202255400-YAQINSHAWKAN-Assignment2 
 
-# Personal portfolio web app – Assignment 1
+# Personal portfolio web app – Assignment 2
 
 ## Project Description
 This project is a simple, responsive personal portfolio website built using HTML, CSS, and JavaScript. 
 It presents information about me, my projects, and a contact form.
 
+This portfolio also includes interactive features such as a personalized greeting message based on the user's name and time of day, a modal for user input, and a validated contact form with feedback messages to enhance user experience.
+
+
 ## Features
 - Responsive multi-section layout
 - Project cards with clean design
 - Contact form UI
-- Dynamic greeting message based on time of day (JavaScript)
+- Dynamic greeting message based on the user's name and time of day (JavaScript)
 
 ## Technologies Used
 - HTML5

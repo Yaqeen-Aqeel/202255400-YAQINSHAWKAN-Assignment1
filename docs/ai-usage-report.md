@@ -9,6 +9,7 @@ I used ChatGPT throughout the assignment to:
 - Debug alignment and layout issues
 - Review the implementation of JavaScript greeting message based on time of day
 - Organize AI usage report, technical, and README documents 
+- Help implement JavaScript modal behavior feature
 
 No code was copied blindly. All suggestions were reviewed, tested, and modified to fit the assignment requirements.
 
